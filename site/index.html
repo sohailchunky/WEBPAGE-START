@@ -1,33 +1,79 @@
-<!DOCTYPE html>
+<!DOCTYPE /html>
 <html>
 <head>
 	<meta charset="utf-8"
 	<title>FRAGMENT IDENTIFIER</title>
+	<style>
+         .c1,.c2,.c3,.c4,.c5{
+			color:yellow; 
+			font-weight:bold;
+			font-style:roman;
+			font-size:30px;
+			text-align:center;
+			background-color:black;
+		}
+		p.c6{
+		 	color:blue;
+		 	font-style:roman;
+			background-color:black;
+			font-weight:bold;
+			folnt-size:40px;
+		}
+		#TOP{
+			color: YELLOW;
+			font-weight: BOLD;
+			background-color: black;
+		}
+		section li {
+		list-style:none;
+		}
+		a:link, a:visited{
+			text-decoration:none;
+			border:1px solid black;
+			background-color:black;
+			color:yellow;
+			display:block;
+			width: 200px;
+			text-align: center;
+			margin-bottom: 3px;
+		}
+		a:hover, a:active{
+			background-color: white;
+			color: red;
+		}
+		section li:nth-child(4){
+			font-size:15px;
+
+		}
+
+		</style>
+		
 </head>
 <body>
-	<h1 id=TOP><center>LIST OF SECTIONS TO BE NAVIGATED</center></h1>
 	<section>
-		<ol>
-			<li><a href="#SECTION 1" title="SECTION 1">SECTION 1</a><p>HISTORY OF BODYBUILDING</p></li>
-			<li><a href="#SECTION 2" title="SECTION 1">SECTION 2</a><p>ORIGIN OF HERCULES</p></li>
-			<li><a href="#SECTION 3" title="SECTION 3">SECTION 3</a><p>CHEST</p></li>
-			<li><a href="#SECTION 4" title="SECTION 4" target="_blank">SECTION 4</a><p>abs</p></li>
-		</ol>
+	<h1 id=TOP><center>LIST OF SECTIONS TO BE NAVIGATED</center></h1>
+	
+		<ul>
+			<li><a href="#SECTION1" title="SECTION 1">SECTION 1</a></li>
+			<li><a href="#SECTION2" title="SECTION 1">SECTION 2</a></li>
+			<li><a href="#SECTION3" title="SECTION 3">SECTION 3</a></li>
+			<li><a href="#SECTION4" title="SECTION 4" target="_blank">SECTION 4</a></li>
+		</ul>
 	</section>
-	<section id="SECTION 1">
-		<ceneter><h2>HISTORY OF BODYBUILDING</h2></ceneter>
+	<section id="SECTION1">
+		<ceneter><h2 class="c1">HISTORY OF BODYBUILDING</h2></ceneter>
 		<center><img src="Arnold_Schwarzenegger_1974.jpeg" height="300" width="300"></center>
-		<p>&quot;Bodybuilding is the use of progressive resistance exercise to control and develop one's musculature for aesthetic purposes. An individual who engages in this activity is referred to as a bodybuilder. In professional bodybuilding, competitors appear in lineups and perform specified poses (and later individual posing routines) for a panel of judges who rank them based on symmetry, muscularity, size, conditioning, posing, and stage presentation. Bodybuilders prepare for competitions through the elimination of nonessential body fat, enhanced at the last stage by a combination of extracellular dehydration and carbo-loading, to achieve maximum muscular definition and vascularity; they also tan and shave to accentuate the contrast of their skin under the spotlight&quot;
+		<p class="c5">&quot;Bodybuilding is the use of progressive resistance exercise to control and develop one's musculature for aesthetic purposes. An individual who engages in this activity is referred to as a bodybuilder. In professional bodybuilding, competitors appear in lineups and perform specified poses (and later individual posing routines) for a panel of judges who rank them based on symmetry, muscularity, size, conditioning, posing, and stage presentation. Bodybuilders prepare for competitions through the elimination of nonessential body fat, enhanced at the last stage by a combination of extracellular dehydration and carbo-loading, to achieve maximum muscular definition and vascularity; they also tan and shave to accentuate the contrast of their skin under the spotlight&quot;
 
 &quot;Some bodybuilders use anabolic steroids and other performance-enhancing drugs to build muscles and recover from injuries more quickly, but competitions sometimes ban using them because of the health risks or considerations regarding fair competition. Despite some calls for testing for steroids, the leading bodybuilding federation (National Physique Committee) does not. The winner of the annual IFBB Mr. Olympia contest is generally recognized as the world's top male professional bodybuilder. Since 1950, the NABBA Universe Championships have been considered the top amateur bodybuilding contests, with notable winners such as Reg Park, Lee Priest, Steve Reeves, and Arnold Schwarzenegger. Winners generally go on to become professional athletes&quot;</p>
 </section>
-<center><section id="SECTION 2"></center>
-	<center><h2>ORIGIN OF BODYBUILDING<h2></center>
+<center><section id="SECTION2"></center>
+	<center><h2 class="c2">ORIGIN OF BODYBUILDING<h2></center>
 	<center><img src="hercules.jpeg" height="300" width="300"></center>
-	<p>&quot;Bodybuilding developed in the late 19th century, promoted in England by German Eugen Sandow, now considered as the "Father of Modern Bodybuilding". He allowed audiences to enjoy viewing his physique in "muscle display performances". Although audiences were thrilled to see a well-developed physique, the men simply displayed their bodies as part of strength demonstrations or wrestling matches. Sandow had a stage show built around these displays through his manager, Florenz Ziegfeld. The Oscar-winning 1936 musical film The Great Ziegfeld depicts the beginning of modern bodybuilding, when Sandow began to display his body for carnivals&quot;</p>
+	<p class="c6">&quot;Bodybuilding developed in the late 19th century, promoted in England by German Eugen Sandow, now considered as the "Father of Modern Bodybuilding". He allowed audiences to enjoy viewing his physique in "muscle display performances". Although audiences were thrilled to see a well-developed physique, the men simply displayed their bodies as part of strength demonstrations or wrestling matches. Sandow had a stage show built around these displays through his manager, Florenz Ziegfeld. The Oscar-winning 1936 musical film The Great Ziegfeld depicts the beginning of modern bodybuilding, when Sandow began to display his body for carnivals&quot;</p>
 </section>
-<center><section id="SECTION 3"></center>
-	<center><h2>CHEST GUIDE<h2></center>
+<center><section id="SECTION3"></center>
+	<center><h2 class="c3">CHEST GUIDE<h2></center>
 	<center><img src="chest.jpeg" height="300" width="300"></center>
 		<p>&quot;Chest training gotten stale? Here's a superset that'll change that.
 
@@ -55,8 +101,8 @@ Programming
 Apply progressive overload on both of these exercises in the 8-15 rep range and your chest will puff up like a balloon. These two exercises can be done at the beginning, middle, or end of your workout. Don't overthink it. Just get stronger&quot;
 	</p>
 </section>
-<center><section id="SECTION 4"></center>
-	<center><h2>ABS GUIDE</h2></center>
+<center><section id="SECTION4"></center>
+	<center><h2 class="c4">ABS GUIDE</h2></center>
 	<center><img src="abs.jpeg" height="300" width="300"></center>
 	<p>&quot;welcome to the latest addition of "yeah, that's basically impossible." Today, we're examining the fitness goal many have attempted and few have actually achieved: le six pack.
 
